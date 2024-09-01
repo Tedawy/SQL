@@ -102,7 +102,7 @@
 
 - **Question:** Write a query to find all employees from the `employees` table who have a `last_name` starting with ‘S’, earn a salary greater than 60,000, and work in the sales department.
 
-- **Your Answer**: 
+- **Answer**: 
   ```sql
   SELECT * FROM employees 
   WHERE last_name LIKE 'S%' 
@@ -114,7 +114,7 @@
 
 - **Question**: Write a query to retrieve products from the products table where the price is between 50 and 100, or the product name contains the word “Pro” but is not in the Electronics category.
 
-- **Your Answer**:
+- **Answer**:
     ```sql
     SELECT * FROM products 
     WHERE (price BETWEEN 50 AND 100)
